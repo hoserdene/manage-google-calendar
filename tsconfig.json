@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES2015", "ES6", "ES7", "ESNext.AsyncIterable", "DOM"],
+    "module": "commonjs",
+    "allowJs": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "rootDirs": ["src"]
+  },
+  "exclude": ["node_modules", "dist"]
+}

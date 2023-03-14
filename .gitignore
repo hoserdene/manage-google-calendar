@@ -1,0 +1,11 @@
+# Lock files
+package-lock.json
+yarn-lock.json
+pnpm-lock.yaml
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env.test
+.env
